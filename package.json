@@ -1,0 +1,38 @@
+{
+  "name": "hapi-api",
+  "version": "1.0.0",
+  "description": "Basic structure",
+  "main": "app.js",
+  "license": "MIT",
+	"scripts": {
+		"dev": "node ./app.js",
+		"start": "node ./app.js",
+		"test": "lab -t 100",
+		"test-cov-html": "lab -r html -o coverage.html"
+	},
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "blipp": "^2.3.0",
+    "bluebird": "^3.5.0",
+    "boom": "^4.3.1",
+    "hapi": "^16.1.1",
+    "hapi-api-version": "^1.3.0",
+    "hapi-auth-jwt2": "^7.2.4",
+    "hapi-swagger": "^7.7.0",
+    "inert": "^4.2.0",
+    "ioredis": "^2.5.0",
+    "joi": "^10.4.1",
+    "jsonwebtoken": "^7.3.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.4",
+    "pino": "^4.2.4",
+    "randomstring": "^1.1.5",
+    "uuid": "^3.0.1",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^13.0.1"
+  }
+}
